@@ -4,3 +4,4 @@ reference/**
 .DS_Store
 node_modules/**
 *.vsix
+*_preview.html
