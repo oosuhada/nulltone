@@ -1,0 +1,48 @@
+{
+  "name": "nulltone",
+  "displayName": "Nulltone",
+  "description": "A precision VS Code theme for Mini LED and OLED displays: neutral blacks, clear whites, and restrained VS Code blue accents.",
+  "version": "1.0.0",
+  "publisher": "oosuhada",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "light",
+    "neutral",
+    "oled",
+    "mini led",
+    "mini-led",
+    "monochrome",
+    "clean",
+    "minimal"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "OS Nulltone Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nulltone-dark-color-theme.json"
+      },
+      {
+        "label": "OS Nulltone Light",
+        "uiTheme": "vs",
+        "path": "./themes/nulltone-light-color-theme.json"
+      }
+    ]
+  },
+  "galleryBanner": {
+    "color": "#0D0D0D",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oosuhada/nulltone"
+  }
+}
