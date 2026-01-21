@@ -15,6 +15,8 @@ Marketplace ID: `oosuhada.nulltone`
 
 - **OS Nulltone Dark**: optimized for Mini LED and OLED displays with neutral black surfaces, clear white text, refined gray comments, and focused VS Code blue accents.
 - **OS Nulltone Light**: optimized for bright environments and MacBook displays with clean white surfaces, readable dark text, and stronger token contrast.
+- **OS Nulltone Glass Dark**: a neutral transparent dark variant for the Nulltone Glass Controller. Code and terminal surfaces remain more opaque than surrounding UI.
+- **OS Nulltone Glass Light**: a neutral transparent light variant for automatic macOS light mode when Glass is enabled.
 
 ## Why Nulltone
 
@@ -44,6 +46,16 @@ A light theme for bright rooms, classrooms, and daytime coding.
 - Stronger syntax contrast than many soft light themes.
 - Controlled accent colors that remain readable on bright backgrounds.
 - Designed for users who switch between dark and light mode throughout the day.
+
+### OS Nulltone Glass Dark / Light
+
+Transparent variants for local use with the Nulltone Glass Controller.
+
+- Keep the Nulltone achromatic base instead of blue-gray surfaces.
+- Preserve automatic macOS dark/light switching through VS Code preferred themes.
+- Use alpha only on structural surfaces, not token colors.
+- Keep editor and terminal backgrounds more opaque than sidebars, tabs, and panels.
+- Reserve VS Code blue for focus, cursor, selection, badges, and primary UI accents.
 
 ## Design Philosophy
 
@@ -78,12 +90,26 @@ For the best experience, enable automatic system color mode detection in VS Code
 
 This lets VS Code follow macOS light and dark mode automatically.
 
+For the local glass setup:
+
+```jsonc
+{
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "OS Nulltone Glass Dark",
+  "workbench.preferredLightColorTheme": "OS Nulltone Glass Light"
+}
+```
+
+The normal Nulltone themes remain the safe fallback when Glass is off.
+
 ## Future Variants
 
 Nulltone is designed as a family:
 
 - `OS Nulltone Dark`
+- `OS Nulltone Glass Dark`
 - `OS Nulltone Light`
+- `OS Nulltone Glass Light`
 - `OS Nulltone Amber`
 - `OS Nulltone Mono`
 
@@ -92,6 +118,6 @@ Nulltone is designed as a family:
 Open this folder in VS Code and run the extension development host:
 
 1. Press `F5`.
-2. Choose **OS Nulltone Dark** or **OS Nulltone Light** from the Color Theme picker.
+2. Choose **OS Nulltone Dark**, **OS Nulltone Light**, **OS Nulltone Glass Dark**, or **OS Nulltone Glass Light** from the Color Theme picker.
 
 The `reference/` directory is intentionally ignored by Git. It contains local study material from other open-source VS Code themes and is not packaged with Nulltone.
