@@ -6,6 +6,18 @@ The name combines `null` and `tone`: not a lack of color, but a more deliberate 
 
 Marketplace ID: `oosuhada.nulltone`
 
+## 한국어 요약
+
+Nulltone은 Mini LED·OLED·MacBook 디스플레이에서 장시간 코딩할 때 **중립적인 명암, 선명한 대비, 최소한의 포인트 컬러**를 유지하도록 설계한 VS Code 테마입니다. 흔한 청회색 계열 dark theme 대신 실제 검정에 가까운 surface와 읽기 쉬운 회색/흰색 계층을 사용하고, 색상은 syntax·focus·selection·Git·diagnostic처럼 의미가 필요한 곳에만 남깁니다.
+
+- **Dark / Light / Glass Dark / Glass Light** 변형 제공
+- Mini LED와 OLED에서 black level과 가독성을 살리는 display-first 설계
+- VS Code 기본 UI와 어색하게 충돌하지 않는 절제된 accent
+- 실제 코드 화면을 기준으로 한 dark/light preview 포함
+- Marketplace ID: `oosuhada.nulltone`
+
+이 프로젝트는 단순 색상 취향 저장소가 아니라, 디스플레이 특성과 장시간 개발 환경을 고려해 하나의 작은 개발자 도구 제품으로 정리한 작업입니다.
+
 ## Preview
 
 <p align="center">
