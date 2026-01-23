@@ -138,6 +138,16 @@ Open this folder in VS Code and run the extension development host:
 
 The `reference/` directory is intentionally ignored by Git. It contains local study material from other open-source VS Code themes and is not packaged with Nulltone.
 
-## Topics
+## Architecture & Topics / 아키텍처 및 주제
 
-[`color-theme`](https://github.com/topics/color-theme) · [`developer-tools`](https://github.com/topics/developer-tools) · [`liquid-glass`](https://github.com/topics/liquid-glass) · [`macos`](https://github.com/topics/macos) · [`mini-led`](https://github.com/topics/mini-led) · [`oled`](https://github.com/topics/oled) · [`vscode-extension`](https://github.com/topics/vscode-extension) · [`vscode-theme`](https://github.com/topics/vscode-theme) · [`visual-studio-code`](https://github.com/topics/visual-studio-code) · [`dark-theme`](https://github.com/topics/dark-theme) · [`light-theme`](https://github.com/topics/light-theme) · [`accessibility`](https://github.com/topics/accessibility) · [`ui-design`](https://github.com/topics/ui-design) · [`theme`](https://github.com/topics/theme) · [`syntax-highlighting`](https://github.com/topics/syntax-highlighting) · [`developer-experience`](https://github.com/topics/developer-experience)
+**Architecture / 아키텍처**<br>
+[`design-token-system`](https://github.com/topics/design-token-system) · [`semantic-color-system`](https://github.com/topics/semantic-color-system) · [`theme-architecture`](https://github.com/topics/theme-architecture) · [`adaptive-color-system`](https://github.com/topics/adaptive-color-system) · [`accessibility-first-design`](https://github.com/topics/accessibility-first-design) · [`platform-aware-design`](https://github.com/topics/platform-aware-design)
+
+**Core technologies / 핵심 기술**<br>
+[`vscode-theme`](https://github.com/topics/vscode-theme) · [`liquid-glass`](https://github.com/topics/liquid-glass)
+
+**Project context / 프로젝트 맥락**<br>
+[`accessibility`](https://github.com/topics/accessibility) · [`color-theme`](https://github.com/topics/color-theme) · [`dark-theme`](https://github.com/topics/dark-theme) · [`developer-experience`](https://github.com/topics/developer-experience) · [`developer-tools`](https://github.com/topics/developer-tools) · [`light-theme`](https://github.com/topics/light-theme) · [`macos`](https://github.com/topics/macos) · [`mini-led`](https://github.com/topics/mini-led) · [`oled`](https://github.com/topics/oled) · [`syntax-highlighting`](https://github.com/topics/syntax-highlighting) · [`theme`](https://github.com/topics/theme) · [`ui-design`](https://github.com/topics/ui-design) · [`visual-studio-code`](https://github.com/topics/visual-studio-code)
+
+**Implementation stack / 구현 스택**<br>
+[`vscode-extension`](https://github.com/topics/vscode-extension)
