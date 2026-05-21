@@ -1,0 +1,6 @@
+node_modules/
+*.vsix
+.DS_Store
+
+# Reference themes are local study material, not part of the extension source.
+reference/
