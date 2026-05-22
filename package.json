@@ -1,7 +1,7 @@
 {
   "name": "nulltone",
   "displayName": "Nulltone",
-  "description": "A precision VS Code theme for Mini LED and OLED displays: neutral blacks, clear whites, and restrained VS Code blue accents.",
+  "description": "A display-first VS Code theme for Mini LED, OLED, and MacBook displays: neutral Nulltone surfaces with optional glass variants.",
   "version": "1.0.0",
   "publisher": "oosuhada",
   "engines": {
@@ -30,9 +30,19 @@
         "path": "./themes/nulltone-dark-color-theme.json"
       },
       {
+        "label": "OS Nulltone Glass Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nulltone-glass-dark-color-theme.json"
+      },
+      {
         "label": "OS Nulltone Light",
         "uiTheme": "vs",
         "path": "./themes/nulltone-light-color-theme.json"
+      },
+      {
+        "label": "OS Nulltone Glass Light",
+        "uiTheme": "vs",
+        "path": "./themes/nulltone-glass-light-color-theme.json"
       }
     ]
   },
