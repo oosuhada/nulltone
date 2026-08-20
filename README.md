@@ -2,6 +2,14 @@
 
 Nulltone is a display-first VS Code color theme by `oosuhada`, designed to maximize clarity, contrast, and usable screen space on Mini LED, OLED, and MacBook displays.
 
+## 왜 만들었나 / Why I built it
+
+macOS가 최근 Liquid Glass 중심의 밝고 투명한 UI로 크게 바뀌었는데, 매일 MacBook에서 같이 쓰는 VS Code는 여전히 채도가 높거나 청회색이 강한 테마가 대부분이었습니다. 운영체제 전체의 톤앤매너와 editor가 따로 노는 느낌이 들어 **내 Mac 환경에 자연스럽게 어울리는 차분한 개발 테마를 직접 만들고 싶었습니다.**
+
+그래서 색을 더 많이 넣는 대신 neutral surface, 선명한 명암, 필요한 곳에만 쓰는 accent를 기준으로 Nulltone을 만들었습니다. Liquid Glass와 직접 같은 UI를 흉내 내기보다는, MacBook·Mini LED·OLED에서 장시간 코딩해도 주변 macOS UI와 충돌하지 않는 조용한 화면을 목표로 합니다.
+
+Nulltone started because the visual language of macOS had changed while the VS Code themes I used still felt unusually vivid or blue-gray beside it. I wanted the editor on my MacBook to feel like part of the same environment, so I built a restrained theme around neutral surfaces, clear contrast, and accents only where they carry meaning.
+
 The name combines `null` and `tone`: not a lack of color, but a more deliberate kind of restraint. Nulltone is built around neutral values, clean contrast, and minimal accents for long coding sessions where blue-gray dark themes can feel hazy, cramped, or visually heavy.
 
 Marketplace ID: `oosuhada.nulltone`
