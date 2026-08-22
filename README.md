@@ -137,3 +137,7 @@ Open this folder in VS Code and run the extension development host:
 2. Choose **OS Nulltone Dark**, **OS Nulltone Light**, **OS Nulltone Glass Dark**, or **OS Nulltone Glass Light** from the Color Theme picker.
 
 The `reference/` directory is intentionally ignored by Git. It contains local study material from other open-source VS Code themes and is not packaged with Nulltone.
+
+## Topics
+
+[`color-theme`](https://github.com/topics/color-theme) · [`developer-tools`](https://github.com/topics/developer-tools) · [`liquid-glass`](https://github.com/topics/liquid-glass) · [`macos`](https://github.com/topics/macos) · [`mini-led`](https://github.com/topics/mini-led) · [`oled`](https://github.com/topics/oled) · [`vscode-extension`](https://github.com/topics/vscode-extension) · [`vscode-theme`](https://github.com/topics/vscode-theme)
